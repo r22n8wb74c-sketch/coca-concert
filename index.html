@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#fff7e8">
+<meta name="description" content="CÒ CA – sự kiện âm nhạc của Phương Mỹ Chi, ngày 04–05.12.2026 tại sân M2, khu đô thị SaLa, Thủ Đức.">
+<title>CÒ CA — Phương Mỹ Chi Concert</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap');
+:root{--red:#a72d42;--pink:#e77c9b;--green:#456b55;--cream:#fff8e9;--yellow:#ffe96b;--ink:#342b2a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:'DM Sans',sans-serif}a{color:inherit;text-decoration:none}button{font:inherit}
+.nav{position:absolute;z-index:5;top:0;left:0;width:100%;display:flex;align-items:center;justify-content:space-between;padding:22px 6%;color:#fff}.brand{font-family:'Playfair Display',serif;font-size:27px;letter-spacing:5px;font-weight:700}.navlinks{display:flex;gap:27px;font-size:13px;font-weight:700;letter-spacing:.5px}.navlinks a:hover{color:var(--yellow)}.nav-cta{border:1px solid #fff;border-radius:30px;padding:10px 18px}
+.hero{min-height:760px;height:94vh;max-height:980px;position:relative;display:flex;align-items:center;overflow:hidden;background:#f9e7a1}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(36,31,24,.58),rgba(36,31,24,.08) 72%),url('poster-co-ca.png') center 43%/cover no-repeat;transform:scale(1.015)}.hero:after{content:"";position:absolute;inset:auto 0 0;height:170px;background:linear-gradient(transparent,var(--cream))}
+.hero-content{position:relative;z-index:1;color:white;padding:90px 8% 70px;max-width:760px}.eyebrow{font-size:12px;letter-spacing:4px;text-transform:uppercase;font-weight:800;color:#ffe8a1}.hero h1{font-family:'Playfair Display',serif;font-size:clamp(78px,14vw,170px);line-height:.78;letter-spacing:-7px;margin:25px 0 25px;color:#fff8e9;text-shadow:0 5px 25px #4b312b55}.hero h1 span{display:block;color:#ffdf6b}.hero p{font-size:clamp(15px,2vw,19px);line-height:1.7;max-width:490px;margin:0 0 30px}.hero-meta{display:flex;flex-wrap:wrap;gap:10px 22px;font-size:13px;font-weight:700;margin-bottom:28px}.pill{display:inline-flex;align-items:center;gap:8px;border:1px solid #ffffffa8;border-radius:30px;padding:10px 15px;backdrop-filter:blur(5px)}.btn{display:inline-block;background:var(--red);color:white;border:0;border-radius:30px;padding:15px 24px;font-weight:800;letter-spacing:.3px;transition:.2s}.btn:hover{background:#7f2032;transform:translateY(-2px)}.btn-light{background:#fff8e9;color:var(--red)}
+section{padding:100px 8%}.section-kicker{color:var(--red);font-size:11px;font-weight:800;letter-spacing:3px;text-transform:uppercase}.section-title{font:600 clamp(38px,6vw,68px)/1.05 'Playfair Display',serif;color:var(--red);margin:15px 0 24px}.intro{display:grid;grid-template-columns:1fr .85fr;gap:8%;align-items:center}.intro-copy{max-width:610px}.intro-copy p{font-size:16px;line-height:1.9;color:#665956}.intro-art{position:relative;min-height:390px;border-radius:48% 48% 20px 20px;overflow:hidden;background:var(--yellow)}.intro-art img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover;object-position:56% 45%}.stamp{position:absolute;right:-12px;bottom:24px;background:var(--pink);color:white;border-radius:50%;width:112px;height:112px;display:grid;place-items:center;text-align:center;font:600 17px 'Playfair Display',serif;transform:rotate(10deg);border:5px solid var(--cream)}
+.experience{background:#f7dce2;position:relative;overflow:hidden}.experience:before{content:"";position:absolute;width:330px;height:330px;border:1px solid #d98ba0;border-radius:50%;right:-110px;top:-120px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:42px}.card{background:#fff9ef;border-radius:22px;padding:28px;min-height:245px;box-shadow:0 12px 30px #8c4b4b10}.card .num{font:600 42px 'Playfair Display',serif;color:var(--pink)}.card h3{font:600 24px 'Playfair Display',serif;color:var(--red);margin:13px 0}.card p{font-size:14px;line-height:1.8;color:#6c5d59}
+.schedule{background:#fff8e9}.schedule-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:38px}.day{border:1px solid #e8c8b7;border-radius:22px;padding:30px;background:#fffdf7}.day-label{display:inline-block;background:var(--green);color:white;padding:8px 13px;border-radius:30px;font-size:11px;font-weight:800;letter-spacing:1px}.day h3{font:600 30px 'Playfair Display',serif;color:var(--red);margin:17px 0}.timeline{border-left:2px solid #e7b4b5;margin:24px 0 0 7px;padding-left:20px}.timeline p{position:relative;font-size:14px;line-height:1.7;margin:0 0 19px;color:#665956}.timeline p:before{content:"";position:absolute;width:9px;height:9px;border-radius:50%;background:var(--pink);left:-26px;top:6px}.timeline strong{display:block;color:var(--green);font-size:12px;letter-spacing:1px;margin-bottom:3px}.note{font-size:12px;color:#907d75;margin-top:22px;font-style:italic}
+.info{background:var(--green);color:#fff8e9}.info .section-title{color:#fff0b1}.info .section-kicker{color:#ffd9a0}.info-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.address{font-size:19px;line-height:1.8;margin:20px 0}.map-panel{border-radius:24px;min-height:310px;background:linear-gradient(135deg,#e8e7b8,#f5d4ce);color:var(--green);display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:25px}.map-panel .pin{font-size:42px}.map-panel p{max-width:300px;line-height:1.7}.map-panel a{font-weight:800;text-decoration:underline;text-underline-offset:4px}
+.faq{background:#f8e8c2}.faq-list{max-width:850px;margin-top:35px}.faq-item{border-bottom:1px solid #d9bca4}.faq-q{width:100%;background:none;border:0;padding:21px 0;text-align:left;display:flex;justify-content:space-between;gap:20px;font-weight:800;color:var(--red);cursor:pointer}.faq-a{display:none;padding:0 35px 20px 0;font-size:14px;line-height:1.8;color:#655652}.faq-item.open .faq-a{display:block}.faq-item.open .plus{transform:rotate(45deg)}.plus{font-size:23px;transition:.2s}
+.ticket{background:var(--pink);text-align:center;color:white;padding:85px 8%}.ticket .section-kicker{color:#fff4cf}.ticket h2{font:600 clamp(42px,7vw,76px)/1.05 'Playfair Display',serif;margin:18px auto;max-width:780px}.ticket p{max-width:590px;margin:0 auto 28px;line-height:1.8}.ticket .btn{background:#fff8e9;color:var(--red)}
+footer{background:#302b2b;color:#f9e9d7;padding:35px 8%;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:12px;line-height:1.8}footer strong{font:600 23px 'Playfair Display',serif;letter-spacing:3px}
+@media(max-width:760px){.nav{padding:18px 5%}.navlinks{display:none}.hero{min-height:690px;height:90vh}.hero:before{background-position:56% center}.hero-content{padding:90px 7% 70px}.hero h1{letter-spacing:-4px}.intro,.info-grid{grid-template-columns:1fr}.intro-art{min-height:300px}.cards{grid-template-columns:1fr}.schedule-grid{grid-template-columns:1fr}section{padding:75px 7%}.info-grid{gap:30px}.map-panel{min-height:240px}}
+</style>
+</head>
+<body>
+<nav class="nav">
+  <a class="brand" href="#home">CÒ CA</a>
+  <div class="navlinks"><a href="#about">CÂU CHUYỆN</a><a href="#experience">TRẢI NGHIỆM</a><a href="#schedule">LỊCH TRÌNH</a><a href="#venue">ĐỊA ĐIỂM</a></div>
+  <a class="nav-cta" href="#tickets">THÔNG TIN VÉ ↗</a>
+</nav>
+<header class="hero" id="home">
+  <div class="hero-content">
+    <div class="eyebrow">Phương Mỹ Chi Concert · 2026</div>
+    <h1>CÒ <span>CA</span></h1>
+    <p>Một cuộc hẹn âm nhạc mang sắc màu Việt, nơi những thanh âm thân quen được kể lại bằng tinh thần trẻ trung và đầy cảm xúc.</p>
+    <div class="hero-meta"><span class="pill">✦ 04–05.12.2026</span><span class="pill">✦ 08:00 — 23:00</span></div>
+    <a class="btn btn-light" href="#about">KHÁM PHÁ CÒ CA ↓</a>
+  </div>
+</header>
+
+<section class="intro" id="about">
+  <div class="intro-copy">
+    <div class="section-kicker">Xin chào, đây là Cò Ca</div>
+    <h2 class="section-title">Chạm vào thanh âm,<br>gặp lại nét thân quen.</h2>
+    <p><strong>CÒ CA</strong> là sự kiện âm nhạc lấy cảm hứng từ hình ảnh chú cò duyên dáng trên poster – gần gũi, bay bổng và đậm chất Việt. Lấy âm nhạc làm nhịp cầu, chương trình mở ra không gian để khán giả gặp gỡ, lắng nghe và tận hưởng những sắc thái biểu diễn của Phương Mỹ Chi.</p>
+    <p>Không chỉ là một buổi concert, CÒ CA được định hình như một ngày hội văn hóa – âm nhạc, nơi hình ảnh, giai điệu và những khoảnh khắc kết nối cùng tạo nên trải nghiệm đáng nhớ.</p>
+  </div>
+  <div class="intro-art"><img src="poster-co-ca.png" alt="Poster minh họa Cò Ca với hình tượng cò và đàn nhạc"><div class="stamp">Hẹn nhau<br>ở CÒ CA!</div></div>
+</section>
+
+<section class="experience" id="experience">
+  <div class="section-kicker">Hơn cả một buổi diễn</div>
+  <h2 class="section-title">Một ngày hội nhiều<br>điều để khám phá.</h2>
+  <div class="cards">
+    <article class="card"><div class="num">01</div><h3>Sân khấu âm nhạc</h3><p>Không gian biểu diễn là tâm điểm của CÒ CA – nơi khán giả hòa mình vào những màn trình diễn và cảm xúc âm nhạc.</p></article>
+    <article class="card"><div class="num">02</div><h3>Góc trải nghiệm</h3><p>Gợi ý các khu vực check-in, không gian tương tác và hoạt động dành cho khán giả trong suốt thời gian diễn ra sự kiện.</p></article>
+    <article class="card"><div class="num">03</div><h3>Hẹn gặp cộng đồng</h3><p>Cùng bạn bè lưu giữ kỷ niệm, chia sẻ tình yêu âm nhạc và gặp gỡ những người có chung niềm yêu thích.</p></article>
+  </div>
+</section>
+
+<section class="schedule" id="schedule">
+  <div class="section-kicker">04—05 tháng 12, 2026</div>
+  <h2 class="section-title">Hai ngày, một cuộc hẹn.</h2>
+  <p style="max-width:650px;line-height:1.8;color:#6c5d59">Sự kiện dự kiến mở cửa trong khung giờ 08:00–23:00. Nội dung dưới đây là gợi ý cấu trúc chương trình để giới thiệu trên website; lịch biểu diễn chính thức sẽ được ban tổ chức cập nhật.</p>
+  <div class="schedule-grid">
+    <article class="day"><span class="day-label">NGÀY 01 · 04.12.2026</span><h3>Khởi hành cùng CÒ CA</h3><div class="timeline">
+      <p><strong>08:00</strong>Mở cửa đón khách, check-in và khám phá không gian sự kiện</p>
+      <p><strong>Trong ngày</strong>Hoạt động trải nghiệm, giao lưu và các khu vực tương tác</p>
+      <p><strong>Buổi tối</strong>Không khí sân khấu và chương trình âm nhạc</p>
+      <p><strong>23:00</strong>Dự kiến kết thúc ngày sự kiện</p>
+    </div></article>
+    <article class="day"><span class="day-label">NGÀY 02 · 05.12.2026</span><h3>Bay cao cùng âm nhạc</h3><div class="timeline">
+      <p><strong>08:00</strong>Đón khách, tham quan và trải nghiệm các khu vực</p>
+      <p><strong>Trong ngày</strong>Hoạt động kết nối khán giả và không gian check-in</p>
+      <p><strong>Buổi tối</strong>Tiếp nối hành trình âm nhạc CÒ CA</p>
+      <p><strong>23:00</strong>Dự kiến khép lại sự kiện</p>
+    </div></article>
+  </div>
+  <p class="note">* Thời lượng và hoạt động chi tiết có thể thay đổi. Vui lòng theo dõi thông báo chính thức từ ban tổ chức.</p>
+</section>
+
+<section class="info" id="venue">
+  <div class="info-grid">
+    <div><div class="section-kicker">Địa điểm tổ chức</div><h2 class="section-title">Gặp nhau tại<br>sân M2, SaLa.</h2>
+      <div class="address"><strong>Sân M2 – Khu đô thị SaLa</strong><br>Đường 558/7B Trần Não,<br>An Lợi Đông, Thủ Đức, TP. Hồ Chí Minh</div>
+      <p style="font-size:13px;line-height:1.8;color:#e9e3d1">Thời gian: 04–05.12.2026<br>Khung giờ: 08:00 — 23:00</p>
+    </div>
+    <div class="map-panel"><div class="pin">📍</div><h3 style="font:600 27px 'Playfair Display',serif;margin:8px 0">Sân M2 · Khu đô thị SaLa</h3><p>Mở bản đồ để xem đường đi đến địa điểm tổ chức tại Thủ Đức.</p><a href="https://www.google.com/maps/search/?api=1&query=S%C3%A2n+M2+Khu+%C4%91%C3%B4+th%E1%BB%8B+SaLa+558%2F7B+Tr%E1%BA%A7n+N%C3%A3o" target="_blank" rel="noopener">XEM TRÊN GOOGLE MAPS ↗</a></div>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <div class="section-kicker">Bạn đang thắc mắc?</div><h2 class="section-title">Thông tin cần biết.</h2>
+  <div class="faq-list">
+    <div class="faq-item"><button class="faq-q">CÒ CA diễn ra vào thời gian nào?<span class="plus">＋</span></button><div class="faq-a">Sự kiện diễn ra trong hai ngày 04–05.12.2026, khung giờ được cung cấp là 08:00–23:00.</div></div>
+    <div class="faq-item"><button class="faq-q">Địa điểm tổ chức ở đâu?<span class="plus">＋</span></button><div class="faq-a">Sân M2, khu đô thị SaLa, đường 558/7B Trần Não, An Lợi Đông, Thủ Đức, TP. Hồ Chí Minh.</div></div>
+    <div class="faq-item"><button class="faq-q">Làm thế nào để mua vé?<span class="plus">＋</span></button><div class="faq-a">Thông tin hạng vé, giá vé và kênh phát hành chưa được cung cấp trong nội dung hiện tại. Ban tổ chức sẽ cập nhật tại mục Thông tin vé khi có thông báo chính thức.</div></div>
+    <div class="faq-item"><button class="faq-q">Lịch biểu diễn cụ thể đã được công bố chưa?<span class="plus">＋</span></button><div class="faq-a">Lịch trình chi tiết và giờ biểu diễn cụ thể cần chờ thông báo chính thức. Khung chương trình trên website hiện là nội dung giới thiệu dự kiến.</div></div>
+  </div>
+</section>
+
+<section class="ticket" id="tickets">
+  <div class="section-kicker">Save the date</div><h2>Đừng lỡ hẹn với CÒ CA!</h2><p>Đánh dấu lịch 04–05.12.2026 và theo dõi các cập nhật tiếp theo về vé, lịch trình cùng những hoạt động tại sự kiện.</p><a class="btn" href="#home">TRỞ LÊN ĐẦU TRANG ↑</a>
+</section>
+<footer><div><strong>CÒ CA</strong><br>Phương Mỹ Chi Concert · 04–05.12.2026</div><div>08:00 — 23:00<br>Sân M2, khu đô thị SaLa, Thủ Đức</div><div>© 2026 CÒ CA · Website concept</div></footer>
+<script>
+document.querySelectorAll('.faq-q').forEach(button=>button.addEventListener('click',()=>button.parentElement.classList.toggle('open')));
+</script>
+</body>
+</html>
